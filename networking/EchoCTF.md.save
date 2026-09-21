@@ -1,0 +1,158 @@
+# EchoCTF Network Challenges Report
+
+**Index Number:** <Your Index Number>
+**Date:** 21st September 2026
+**Platform:** EchoCTF (https://echoctf.red)
+
+---
+
+## Challenge: bender
+
+**Target/Service:** <IP:port — service name>
+**Tool Used:** <e.g., nmap, gobuster, curl>
+
+**Steps:**
+1. `<exact command>`
+2. `<exact command>`
+3. `<exact command>`
+
+**Result Obtained:** `<flag or evidence>`
+**Evidence:** evidence/bender.png
+
+---
+
+## Challenge: headoffice
+
+**Target/Service:** <IP:port — service name>
+**Tool Used:** <tools>
+
+**Steps:**
+1. `<exact command>`
+2. `<exact command>`
+
+**Result Obtained:** `<flag or evidence>`
+**Evidence:** evidence/headoffice.png
+
+---
+
+## Challenge: hostel
+
+**Target/Service:** <IP:port — service name>
+**Tool Used:** <tools>
+
+**Steps:**
+1. `<exact command>`
+2. `<exact command>`
+
+**Result Obtained:** `<flag or evidence>`
+**Evidence:** evidence/hostel.png
+
+---
+
+## Challenge: idiotr
+
+**Target/Service:** <IP:port — service name>
+**Tool Used:** <tools>
+
+**Steps:**
+1. `<exact command>`
+2. `<exact command>`
+
+**Result Obtained:** `<flag or evidence>`
+# EchoCTF Network Challenges Report
+
+**Name:** <Joel Nartey Annan>
+**Index Number:** <7352323>
+**Date:** <19/09/2026>
+**EchoCTF Profile/Username:** <GODISTHEGREATEST>
+
+---
+
+## Challenge: bender
+
+- **Tool(s) Used:** <A web browser(Safari) and safari's built-in web inspector (to view page source)>
+- **Steps:**. <1.Connected to the EchoCTF VPN and visited http://10.0.41.1:1337/
+2.Viewed the page's HTML source via Safari's Web Inspector — found no hidden comments on the main page
+3.Noticed a deliberate typo on the page ("robots ash" instead of the expected phrase) as a hint pointing to robots.txt
+4.Visited http://10.0.41.1:1337/robots.txt directly
+5.Found the first flag in a comment line, and also found a Disallow: /nogooglebot/ entry — a second hint pointing to a hidden path
+6.Visited http://10.0.41.1:1337/nogooglebot/, which displayed a page saying "Look closer..." — indicating the second flag is likely hidden in this page's source (still in progress)>
+- **Flag / Result Obtained:** < flag 1 ETSCTF_ae1764e05e046f3770ac7b396c4ab0a2 flag 2 ETSCTF_e79422930da899e5634d7f9da9c601a2 >
+- **Evidence:** <  mv ~/Downloads/"Screenshot 2026-09-21 at 1.13.12 PM.png" networking/evidence/bender.png>
+
+---
+
+## Challenge: headoffice
+**Tool(s) Used:** <c'curl' (HTTP CLI client)>
+**Steps:** < 1. Connected to the echoCTF network via OpenVPN.
+2.Executed an HTTP `HEAD` request to inspect response headers without requesting the response body:
+   ```bash
+   curl -I [http://10.0.41.4:1337/](http://10.0.41.4:1337/)
+ **Flag / Result Obtained:** <flag 1 ETSCTF_764762092a32a29c2694d8c67209e5ce flag 2 ETSCTF_138cdb84157cf6e761c48072d034d4d0 >
+**Evidence:** < mv ~/Downloads/headoffice.png networking/evidence/headoffice.png > 
+
+---
+
+## Challenge: hostel
+
+(  *Tool(s) Used:* <'curl' (HTTP CLI client)>
+•⁠  ⁠*Steps:*
+  1. < 1. Connected to the echoCTF network via OpenVPN.
+2. Sent a request to the target web server with a custom `Host` header to bypass virtual host restrictions:
+   ```bash
+   curl -H "Host: hostel" [http://10.0.41.5:1337/](http://10.0.41.5:1337/)>
+  2. <...>
+•⁠  ⁠*Flag / Result Obtained:* <flag ETSCTF_283364c182f1f502b52dad45fef141dc >
+•⁠  ⁠*Evidence:* <mv ~/Downloads/hostel.png networking/evidence/hostel.png >kali
+kali
+              kali
+hj vbv            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 same structure)
+
+---
+
+## Challenge: idiotr
+
+(same structure)
+
+---
+
+## Challenge: argonauts
+
+(same structure)
+
+---
+
+## Challenge: getip
+
+(same structure)
+
+
+
+
+
+
+
+
