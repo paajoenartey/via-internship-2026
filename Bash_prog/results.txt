@@ -1,0 +1,29 @@
+===== Log Summary Report =====
+
+-- Total number of log lines --
+52
+
+-- Count of lines per log level --
+     27 INFO
+     13 ERROR
+     12 WARN
+
+-- Top 3 most frequent IP addresses --
+     15 192.168.1.10
+      7 192.168.1.23
+      5 192.168.1.12
+
+-- All ERROR lines --
+2026-09-11 10:00:47 ERROR 192.168.1.23 Connection timeout
+2026-09-11 10:01:18 ERROR 192.168.1.23 Connection timeout
+2026-09-11 10:02:20 ERROR 192.168.1.15 Database connection failed
+2026-09-11 10:03:45 ERROR 192.168.1.23 Connection timeout
+2026-09-11 10:04:48 ERROR 192.168.1.18 Authentication failed
+2026-09-11 10:05:50 ERROR 192.168.1.23 Connection timeout
+2026-09-11 10:06:51 ERROR 192.168.1.15 Database connection failed
+2026-09-11 10:07:53 ERROR 192.168.1.23 Connection timeout
+2026-09-11 10:08:55 ERROR 192.168.1.18 Authentication failed
+2026-09-11 10:09:56 ERROR 192.168.1.23 Connection timeout
+2026-09-11 10:10:58 ERROR 192.168.1.15 Database connection failed
+2026-09-11 10:12:00 ERROR 192.168.1.23 Connection timeout
+2026-09-11 10:13:02 ERROR 192.168.1.18 Authentication failed
